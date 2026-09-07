@@ -13,7 +13,7 @@ export default function Profile({ profile }: { profile: ProfileType }) {
             height={176}
             className="size-full object-cover"
             priority
-            // 더미 아바타가 SVG라 최적화를 건너뜁니다. 실제 사진(JPG/PNG)으로 교체 시 제거하세요.
+            // 아바타가 SVG면 최적화를 건너뜁니다. (JPG/PNG는 정상적으로 최적화)
             unoptimized={profile.avatarUrl.endsWith(".svg")}
           />
         ) : (

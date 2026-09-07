@@ -11,11 +11,10 @@ export type Profile = {
   avatarUrl?: string;
 };
 
-// TODO: 실제 값으로 교체 (지금은 보여주기용 더미 데이터)
 export const profile: Profile = {
-  name: "제롬",
-  bio: "태권브이",
-  avatarUrl: "/avatar-placeholder.svg",
+  name: "태권브이",
+  bio: "달려라 달려 로보트야 날아라 날아 태권브이",
+  avatarUrl: "/taekwon-v.svg",
 };
 
 // TODO: 실제 링크로 교체 (지금은 보여주기용 더미 데이터)
