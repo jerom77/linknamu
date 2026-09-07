@@ -14,7 +14,7 @@ export type Profile = {
 // TODO: 실제 값으로 교체 (지금은 보여주기용 더미 데이터)
 export const profile: Profile = {
   name: "제롬",
-  bio: "유찬이 하윤이 아빠",
+  bio: "태권브이",
   avatarUrl: "/avatar-placeholder.svg",
 };
 
