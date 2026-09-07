@@ -11,7 +11,7 @@ export default function Profile({ profile }: { profile: ProfileType }) {
             alt={`${profile.name} 프로필 사진`}
             width={176}
             height={176}
-            className="size-full object-cover"
+            className="size-full scale-170 object-cover"
             priority
             // 아바타가 SVG면 최적화를 건너뜁니다. (JPG/PNG는 정상적으로 최적화)
             unoptimized={profile.avatarUrl.endsWith(".svg")}

@@ -14,7 +14,7 @@ export type Profile = {
 export const profile: Profile = {
   name: "태권브이",
   bio: "달려라 달려 로보트야 날아라 날아 태권브이",
-  avatarUrl: "/taekwon-v.svg",
+  avatarUrl: "/we_robot.jpg",
 };
 
 // TODO: 실제 링크로 교체 (지금은 보여주기용 더미 데이터)
