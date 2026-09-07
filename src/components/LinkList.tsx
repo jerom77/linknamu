@@ -29,7 +29,7 @@ export default function LinkList({ links, initialCounts }: Props) {
   }
 
   return (
-    <nav className="flex w-full flex-col gap-3">
+    <nav className="flex w-full flex-col gap-4">
       {links.map((link) => (
         <LinkCard
           key={link.id}

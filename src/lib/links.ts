@@ -17,9 +17,8 @@ export const profile: Profile = {
   avatarUrl: "/we_robot.jpg",
 };
 
-// TODO: 실제 링크로 교체 (지금은 보여주기용 더미 데이터)
 export const links: LinkItem[] = [
-  { id: "github", title: "GitHub", url: "https://github.com" },
-  { id: "linkedin", title: "LinkedIn", url: "https://linkedin.com" },
-  { id: "blog", title: "Blog", url: "https://example.com/blog" },
+  { id: "github", title: "🐙 깃허브", url: "https://github.com/jerom77" },
+  { id: "blog", title: "✍ 블로그", url: "https://blog.naver.com/tykil" },
+  { id: "email", title: "📬 이메일", url: "mailto:tykil@naver.com" },
 ];
